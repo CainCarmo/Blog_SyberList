@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/a39dd60c9e.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./CSS/main.css">
+        <title>Blog | SyberList</title>
+    </head>
+
+    <body>
+        
+        <header id="header__page">
+            <div id="header__logo">
+                <img id="header__logo-img" src="./Assets/img/Logo-image.png" alt="Logo-image">
+            </div>
+            <nav>
+                <ul id="header__links">
+                    <li class="header__link">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="header__link">
+                        <a href="#">Contato</a>
+                    </li>
+                    <li class="header__link">
+                        <a href="#">Nosso Site</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="container">
+            <section id="main__top">
+                <div id="main__title">
+                    <h1 id="main__title-text">Feed</h1>
+                </div>
+                <div id="main__controls">
+                    <div id="main__choice">
+                        <select name="post-filter" id="main__select">
+                            <option value="all">Todos os Posts</option>
+                        </select>
+                    </div>
+                    <div id="main__search">
+                        <div id="main__text">
+                            <input id="main__input" type="text" placeholder="Digite o título. . .">
+                            <div class="underline"></div>
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </section>
+            <section id="main__cards">
+                <div class="main__card">
+                    <section class="card__cape">
+                        <img class="card__cape--image" src="./Assets/img/dark.jpg" alt="Card-image">
+                    </section>
+                    <section class="card__information">
+                        <div class="card__date">
+                            <span class="card__date-text">20 de jun.</span>
+                        </div>
+                        <div class="card__title">
+                            <h2 class="card__title-text"><a href="Views/introduction.html">SyberList - Introdução</a></h2>
+                        </div>
+                        <div class="card__description">
+                            <span class="card__description-text">  O site terá o objetivo de ser disponível para todos, com o intuito de seus usuários conseguirem ter acesso a descrição, a nota de avaliação e a comentários dados por outros usuários dos animes/filmes e series, para poderem criar suas listas de visualização...</span>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <img id="footer__logo--image" src="./Assets/img/Logo-image.png" alt="Logo-image">
+            <div id="footer__line"></div>
+            <span>SyberList&copy; 2022 - All Rights Reserved - <cite>by SyberGroup&trade;</cite></span>
+        </footer>
+
+        <script src="./Js/events.js"></script>
+        
+    </body>
+</html>
